@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forma</title>
+</head>
+<body bgcolor="#FF7F50">
+    <div class="block_1">
+        <h1>Форма</h1>
+        <form action="#" name="my_name" method="GET">
+        <label for="my_name">Ваше имя:</label>
+        <input id="my_name" type="text" placeholder="Введите имя" required>
+    </div>
+    <p></p>
+
+    <div class="block_2">
+        <label for="my_phone">Ваш номер:</label>
+        <input id="my_phone" type="tel" placeholder="Введите номер телефона" >
+    </div>
+    <p></p>
+
+    <div class="block_3">
+        <label for="my_mail">Ваш почтовый ящик:</label>
+        <input id="my_mail" type="email" placeholder="Введите email" >
+    </div>
+    <p></p>
+
+    <div class="block_4">
+        <label for="my_password">Введите пароль</label>
+        <input id="my_password" type="password" placeholder="Введите пароль" >
+    </div>
+    <p></p>
+    <div class="block_6"> 
+        <label for="my_city">Ваш город:</label>
+        <select name="city">
+            <option selected disabled >Выберите город</option>
+            <option>Минск  </option>
+            <option>Могилев</option>
+            <option>Витебск</option>
+            <option>Гомель </option>
+            <option>Гродно </option>
+            <option>Брест  </option>
+        </select>
+    </div>
+    <p></p>
+
+    <div class="block_5">
+        <label for="my_sex" >
+            Выберите пол:
+            <input id="my_sex" type="radio" name="sex" >
+            Мужской 
+        </label>
+        <label for="my__sex" >
+            <input id="my__sex" type="radio" name="sex">
+            Женский
+        </label>
+    </div>
+    <p>
+    </p>
+
+    <div class="block_7">
+        <p>Ваше сообщение:</p>
+        <textarea cols="60" rows="10"></textarea>
+    </div>
+    <input type="reset" value="Очистить">
+    <input type="submit" value="Отправить">
+
+    </form>
+</body>
+</html>
